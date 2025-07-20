@@ -1,0 +1,6 @@
+# Odoo & PostgreSQL data
+var/lib/odoo/
+var/lib/postgresql/
+
+# Custom addons (jika tidak ingin dilacak)
+addons/
