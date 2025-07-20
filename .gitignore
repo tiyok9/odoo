@@ -1,6 +1,10 @@
-# Odoo & PostgreSQL data
-var/lib/odoo/
-var/lib/postgresql/
+# Ignore all contents of Odoo and PostgreSQL data folders, but keep the folders
+var/lib/odoo/*
+!var/lib/odoo/.gitkeep
 
-# Custom addons (jika tidak ingin dilacak)
-addons/
+var/lib/postgresql/*
+!var/lib/postgresql/.gitkeep
+
+# Optional: ignore addons folder if you don't want to track custom modules
+# Uncomment the line below if needed
+# addons/
